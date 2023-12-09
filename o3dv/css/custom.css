@@ -1,0 +1,15 @@
+div.ov_panel_set_menu {
+  display: none;
+}
+
+div.ov_panel_set_right_container div.ov_panel_set_content {
+  border-right: none;
+}
+
+canvas#viewer {
+  max-width: 800px;
+}
+
+#toolbar > div > div:nth-child(1), #toolbar > div > div:nth-child(2), #toolbar > div > div:nth-child(3), #toolbar > div > div:nth-child(19) {
+ display: none;
+}

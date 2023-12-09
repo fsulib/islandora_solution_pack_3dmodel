@@ -1,0 +1,9 @@
+name = "Islandora 3D Model Solution Pack"
+description = "A solution pack for handling 3D models in Islandora"
+dependencies[] = islandora
+package = Islandora Solution Packs
+core = 7.x
+version = 7.x-dev
+dependencies[] = islandora_batch
+dependencies[] = zip_importer
+files[] = includes/importer.inc

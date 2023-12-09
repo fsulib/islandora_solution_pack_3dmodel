@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<collection_policy xmlns="http://www.islandora.ca"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="3D model collection"
+    xsi:schemaLocation="http://www.islandora.ca http://syn.lib.umanitoba.ca/collection_policy.xsd">
+  <content_models>
+    <content_model dsid="ISLANDORACM" name="Islandora 3D Model Content Model" namespace="islandora" pid="islandora:3dModelCModel"/>
+    <content_model dsid="ISLANDORACM" name="Islandora Collection Content Model" namespace="islandora" pid="islandora:collectionCModel"/>
+  </content_models>
+  <search_terms/>
+  <staging_area/>
+  <relationship>isMemberOfCollection</relationship>
+</collection_policy>
